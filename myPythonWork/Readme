@@ -1,0 +1,15 @@
+#Calling python fuctions from c
+Reference: https://docs.python.org/release/2.6.5/extending/embedding.html#pure-embedding
+/*Embedding Python in C*/
+
+The first program aims to execute a function in a Python script. 
+Like in the section about the very high level interface, the Python interpreter does not directly interact
+with the application.
+
+1. Such extension modules can do two things that can’t be done directly in 
+Python: they can implement new built-in object types, and they can call C library functions and system calls.
+
+2. The Python API is incorporated in a C source file by including the header "Python.h".
+
+3. Useful links:https://docs.python.org/3/extending/extending.html
+
