@@ -1,5 +1,5 @@
 ## What does Cython do
-Cython is a Python compiler. One could write python function, use Cython to compile them to C codes, and when one call this function, it could be faster with the improved performance given by C. 
+Cython is a Python compiler. One could write python function, use Cython to compile them to C codes, and when one call this function, it could be faster with the improved performance given by C.  
 
 Cython could be easily downloaded with pip:
 ```
@@ -20,13 +20,13 @@ python3 setup.py build_ext --inplace
 We start with two functions compiling with Cython
 1. compute_nonType is a function without type definition
 2. compute_type is a function with type definition
-With type definition, the for-loop in compute_type could be compiled to pure C code, with further improved performance.
-
-The program shows this result:
-Elapsed time without Cython: 0.000941
-Elapsed time with Cython, no type: 0.000690
-Elapsed time with Cython, with type: 0.000019
-
+With type definition, the for-loop in compute_type could be compiled to pure C code, with further improved performance.  
+  
+The program shows this result:  
+Elapsed time without Cython: 0.000941  
+Elapsed time with Cython, no type: 0.000690  
+Elapsed time with Cython, with type: 0.000019  
+  
 Which suggests that even though Cython could improve performance, with type definition, the performance could be improved much further. 
 
 
