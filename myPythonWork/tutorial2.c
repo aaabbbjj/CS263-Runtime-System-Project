@@ -4,6 +4,7 @@
 /*compile 
 gcc -o tutorial2 tutorial2.c -lpython2.7
 ./tutorial2 printData printData cyberpersons
+Reference: http://xmodulo.com/embed-python-code-in-c.html
 */
 
 int main(int argc, char *argv[])
