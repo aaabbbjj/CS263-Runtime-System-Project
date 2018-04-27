@@ -1,6 +1,10 @@
 #include </usr/include/python2.7/Python.h>
 #include <stdlib.h>
 #include <string.h>
+/*compile 
+gcc -o tutorial2 tutorial2.c -lpython2.7
+./tutorial2 printData printData cyberpersons
+*/
 
 int main(int argc, char *argv[])
 {
